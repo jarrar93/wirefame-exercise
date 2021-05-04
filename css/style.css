@@ -1,0 +1,96 @@
+body {
+  background-color: white;
+}
+
+header {
+  background-color: rgb(70, 67, 67);
+  margin-bottom: 30px;
+  
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -1;
+  
+}
+ul {
+  list-style-type: none;
+  width: 50%;
+  float: right;
+  margin: auto;
+}
+
+li {
+  display: inline;
+  padding: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div a {
+  float: left;
+  margin: 20px 0px 20px 100px;
+  width: 200px;
+  height: 70px;
+  background-color: lightblue;
+  z-index: +1;
+}
+div b {
+
+  
+}
+main {
+  width: 100%;
+  
+}
+section {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  text-align: center;
+}
+
+
+#section2-box2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+section:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+}
+.Boxes {
+  width: 480px;
+  height: 400px;
+}
+
+
+#text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 460px;
+}
+h3 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  float: left;
+  margin-top: 20px;
+}
+textarea {
+  height: 500px;
+}
+footer {
+  background-color: rgb(63, 55, 55);
+  margin-bottom: 50px;
+  height: 150px;
+}
